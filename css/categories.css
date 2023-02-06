@@ -1,0 +1,39 @@
+.output {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 50px;
+}
+  
+.output img {
+    width: 150px;
+    height: 150px;
+}
+  
+.active {
+    background-color: red;
+}
+  
+.wrap.activeShow .show {
+    display: none;
+}
+  
+.categories h2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.categories__choise {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 20px;
+
+  
+}
+
+#form {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px 20px;
+}
